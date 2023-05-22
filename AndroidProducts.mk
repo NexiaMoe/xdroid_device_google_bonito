@@ -16,8 +16,12 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/aosp_bonito.mk \
-    $(LOCAL_DIR)/aosp_sargo.mk
+    $(LOCAL_DIR)/aosp_sargo.mk \
+	$(LOCAL_DIR)/xdroid_bonito.mk \
+    $(LOCAL_DIR)/xdroid_sargo.mk
 
 COMMON_LUNCH_CHOICES := \
     aosp_bonito-userdebug \
-    aosp_sargo-userdebug
+    aosp_sargo-userdebug \
+	xdroid_bonito-userdebug \
+	xdroid_sargo-userdebug
